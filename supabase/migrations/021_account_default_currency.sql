@@ -30,3 +30,4 @@ ALTER TABLE accounts
 ALTER TABLE accounts
   ADD CONSTRAINT accounts_default_currency_format
   CHECK (default_currency ~ '^[A-Z]{3}$');
+

@@ -235,3 +235,4 @@ $$;
 ALTER FUNCTION public.redeem_invitation(TEXT) OWNER TO postgres;
 REVOKE ALL ON FUNCTION public.redeem_invitation(TEXT) FROM PUBLIC;
 GRANT EXECUTE ON FUNCTION public.redeem_invitation(TEXT) TO authenticated;
+

@@ -112,3 +112,4 @@ CREATE POLICY "Users can delete their own flow media"
     bucket_id = 'flow-media'
     AND auth.uid()::text = (storage.foldername(name))[1]
   );
+

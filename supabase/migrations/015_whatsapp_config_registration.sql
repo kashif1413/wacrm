@@ -43,3 +43,4 @@ ALTER TABLE whatsapp_config
 CREATE INDEX IF NOT EXISTS idx_whatsapp_config_registered_at
   ON whatsapp_config (registered_at)
   WHERE registered_at IS NULL;
+

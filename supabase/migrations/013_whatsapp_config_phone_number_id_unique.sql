@@ -82,3 +82,4 @@ BEGIN
       UNIQUE (phone_number_id);
   END IF;
 END $$;
+

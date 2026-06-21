@@ -196,3 +196,4 @@ CREATE UNIQUE INDEX IF NOT EXISTS message_templates_user_name_language_key
 CREATE INDEX IF NOT EXISTS idx_message_templates_meta_template_id
   ON message_templates (meta_template_id)
   WHERE meta_template_id IS NOT NULL;
+

@@ -118,3 +118,4 @@ SELECT public.merge_duplicate_contacts();
 CREATE UNIQUE INDEX IF NOT EXISTS idx_contacts_account_phone_normalized
   ON contacts (account_id, phone_normalized)
   WHERE phone_normalized <> '';
+

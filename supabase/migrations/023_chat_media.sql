@@ -120,3 +120,4 @@ CREATE POLICY "Members can delete chat media"
         AND ('account-' || p.account_id::text) = (storage.foldername(name))[1]
     )
   );
+

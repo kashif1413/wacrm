@@ -281,3 +281,4 @@ $$;
 ALTER FUNCTION public.transfer_account_ownership(UUID) OWNER TO postgres;
 REVOKE ALL ON FUNCTION public.transfer_account_ownership(UUID) FROM PUBLIC;
 GRANT EXECUTE ON FUNCTION public.transfer_account_ownership(UUID) TO authenticated;
+
